@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuy-2 Sesi-3</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- header -->
+        <nav>
+            <h1 class="animate__animated animate__bounce animate__delay-3s">Binx</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- header end -->
+        <!-- content -->
+        <div class="content">
+            <p>Hello, Iam Binx!</p>
+            <p>Im from Indonesia</p>
+            <img src="assets/rimuru-profil-square.jpg" alt="Gambar Rimuru">
+        </div>
+        <!-- content end -->
+        <!-- parallax -->
+        <div class="parallax">
+            <div class="collaborate" id="contact">
+                <h3>I am a Web Development</h3>
+                <p>You Wanna to Collaborate you can click the button below!</p>
+                <button class="btn" onclick="chatToWhatsapp()">Click Here</button>
+            </div>
+            <div class="container-about" id="about">
+                <div class="card-about">
+                    <h5>Fast Service <i class="fa-solid fa-rocket"></i></h5>
+                    <p>fast and active service up to 24 hours</p>
+                </div>
+                <div class="card-about">
+                    <h5>Very Low Price <i class="fa-solid fa-dollar-sign"></i> </h5>
+                    <p>prices are cheaper than other places</p>
+                </div>
+                <div class="card-about">
+                    <h5>Review <i class="fa-solid fa-comments"></i></h5>
+                    <p>The majority of reviews are positive, because I have experience in this field.</p>
+                </div>
+            </div>
+
+        </div>
+        <!-- parallax end -->
+        <div class="footer">
+            <h5><i class="fa-regular fa-copyright"></i> Binx 2024</h5>
+        </div>
+    </div>
+    <script>
+        function chatToWhatsapp() {
+            window.location.href = "https://wa.me/0812312312"
+        }
+    </script>
+</body>
+
+</html>

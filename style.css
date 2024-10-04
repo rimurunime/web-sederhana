@@ -1,0 +1,146 @@
+html, body, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Inter", system-ui;
+    background-color: #eaeaea;
+}
+
+.container {
+   width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5eead4;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    padding: 5px 10px;
+    list-style-type: none;
+    border-radius: 5px;
+   
+}
+
+nav a {
+    /* font-size: 18px; */
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: .3s;
+}
+
+nav li:hover a {
+    color: #e2e8f0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content img {
+    max-width: 300px;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+
+.parallax {
+    background-image: url(assets/1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-about {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+    padding: 50px 0px;
+    padding-bottom: 200px;
+}
+.card-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5eead4;
+    max-width: 300px;
+    padding: 15px;
+    text-align: justify;
+    gap: 10px;
+    border-radius: 3px;
+}
+
+.card-about h5 {
+    font-size: 20px;
+}
+
+.card-about p {
+    font-size: 18px;
+}
+
+.btn {
+    background-color: #0ea5e9;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: #0284c7;
+}
+
+.btn:active {
+    background-color: #0369a1;
+}
+
+.collaborate {
+    background-color: #1e293b;
+    color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 20px;
+}
+
+.collaborate h3 {
+    font-size: 20px;
+}
+
+.collaborate p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    background-color: #5eead4;
+    padding: 10px;
+    font-size: 20px;
+}
